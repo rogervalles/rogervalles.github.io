@@ -2,7 +2,7 @@
   "name": "personal-site",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://rogervalles.github.io",
+  "homepage": "https://rogervalles.github.io/personal-site",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
