@@ -28,6 +28,9 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./personal-site
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -35,7 +38,6 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        working-directory: ../../personal-site/
         with:
           # Upload entire repository
           path: './dist'
