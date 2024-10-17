@@ -74,4 +74,5 @@ button:focus-visible {
   object-fit: cover;
   border: 5px solid #3ac2f0; /* This adds the border ring */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional shadow for aesthetics */
+  background-color: #333;
 }
